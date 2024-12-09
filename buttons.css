@@ -1,0 +1,55 @@
+a {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  .nav-link {
+    text-decoration: none;
+  }
+  .nav-link:hover {
+    color: #5495ff; /* Lighter blue color */
+  }
+  
+  .btn {
+    background-color: #2176FF; /* Blue background */
+    border-radius: 2px; /* Slightly rounded corners */
+    color: #ffffff; /* White text */
+    font-family: 'Raleway', sans-serif; /* Use Raleway font */
+    font-size: 16px; /* Font size */
+    font-weight: 400; /* Normal font weight */
+    padding: 14px; /* Padding around the text */
+    text-decoration: none; /* Remove underline */
+    text-transform: uppercase; /* Uppercase text */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .btn:hover {
+    background-color: #fff; /* White background */
+    color: #2176FF; /* Blue text */
+    transition: color 0.1s ease-in, background-color 0.1s ease-in;
+  }
+  .btn:active {
+    font-size: 18px; /* Slightly larger font size */
+    transition: font-size 0.1s ease-in-out;
+  }
+  .activity {
+    border: 1px solid #2176FF; /* Blue border */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-decoration: none; /* Remove underline */
+  }
+  .activity:hover {
+    background-color: #fff; /* White background */
+    color: #5495ff; /* Lighter blue text */
+    transition: color 0.1s ease-in, background-color 0.1s ease-in;
+  }
+  .activity:active {
+    font-size: 40px; /* Larger font size */
+    transition: font-size 0.1s;
+  }
+  
+  
+  
+  
+  
